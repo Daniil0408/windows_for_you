@@ -1,0 +1,159 @@
+@media only screen and (min-width: 1px) {
+    .logo2 {
+        width: 100%; /* Можно задать любую другую ширину блока */
+        text-align: center;
+    }
+
+    .logo21 img {
+        width: 265%;
+        height: 380%;
+    }
+
+    .logo22 img {
+        margin-left: 5%;
+        width: 175%;
+        height: 230%;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    .logo22 {
+        margin-top: 25%;
+    }
+
+    .logo23 {
+        margin-left: 7%;
+        margin-top: 12%;
+        float: none;
+        font-size: 40px;
+        margin-bottom: 20%;
+    }
+
+    .logo231 {
+        margin-bottom: 20%;
+    }
+    .icon {
+        float: none;
+    }
+
+    .logo2 h3 {
+        text-align: center;
+    }
+}
+
+@media only screen and  (min-width: 1000px) {
+    .logo2 {
+        height: 100px;
+        width: 33.333%; /* Можно задать любую другую ширину блока */
+    }
+
+    .logo {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: -37px;
+        padding: 40px 0px;
+    }
+
+    .logo21 {
+        width: 300px;
+    }
+
+    .logo22 {
+        width: 450px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .logo21 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo22 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .logo23 {
+        margin-top: 7px;
+        float: right;
+    }
+
+    .logo2 h3 {
+        margin: 0;
+        font-size: 15px;
+        text-align: right;
+        color: #0b460d;
+    }
+
+    .logo2 h4 {
+        margin: 0;
+        font-size: 15px;
+        text-align: right;
+        color: #0b460d;
+    }
+
+    .icon {
+        float: left;
+        margin: 0;
+    }
+}
+
+@media only screen and  (min-width: 1400px) {
+    .logo2 {
+        height: 100px;
+        width: 33.333%; /* Можно задать любую другую ширину блока */
+    }
+
+    .logo {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: -37px;
+        padding: 40px 0px;
+    }
+
+    .logo21 {
+        width: 380px;
+        height: 140px;
+    }
+
+    .logo22 {
+        width: 600px;
+        height: 124px;
+        margin-top: 5px;
+        margin-left: -30px;
+    }
+
+    .logo23 {
+        margin-top: 12px;
+        float: right;
+    }
+
+    .logo2 h3 {
+        margin: 0;
+        font-size: 20px;
+        text-align: right;
+        color: #0b460d;
+    }
+
+    .logo2 h4 {
+        margin: 0;
+        font-size: 20px;
+        text-align: right;
+        color: #0b460d;
+    }
+
+    .icon {
+        float: left;
+        margin: 0;
+    }
+}
+

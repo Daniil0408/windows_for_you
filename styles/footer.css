@@ -1,0 +1,43 @@
+footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    background: linear-gradient(90deg, #f83600, #fe8c00);
+    color: white;
+    width: 100%;
+}
+
+footer .address {
+    float: left;
+    margin-left: 15%;
+}
+
+footer .contacts {
+    float: left;
+    margin-left: 10%;
+}
+
+@media only screen and (min-width: 1px) and  (max-width: 999px) {
+    footer .address {
+        float: left;
+        margin-left: 10%;
+    }
+
+    footer h3 {
+        float: none;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    footer .contacts {
+        float: none;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and  (max-width: 1400px) {
+    footer .address {
+        float: left;
+        margin-left: 10%;
+    }
+}

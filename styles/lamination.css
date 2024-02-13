@@ -1,0 +1,33 @@
+.lamination {
+    height: 470px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border-radius: 25px;
+    color: #0b460d;
+    background: linear-gradient(90deg, rgba(172, 253, 47), rgb(74, 160, 2));
+    box-shadow: -7px 0 5px 0 rgba(0,0,0,0.2);
+}
+
+.lineLamination {
+    margin-top: 2%;
+}
+
+.lineLeftLamination {
+    float: left;
+    margin-top: 3.5%;
+    margin-left: 5%;
+    border-left: 15px solid #ACFD2FFF;
+    border-radius: 20px;
+    height: 430px;
+}
+
+.lineRightLamination {
+    float: right;
+    margin-top: 3.5%;
+    margin-right: 5%;
+    border-right: 15px solid #4AA002FF;
+    border-radius: 20px;
+    height: 430px;
+}

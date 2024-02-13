@@ -1,0 +1,114 @@
+.about {
+    height: 440px;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 25px;
+    color: #0b460d;
+    background: linear-gradient(90deg, rgba(172, 253, 47), rgb(74, 160, 2));
+    box-shadow: -7px 0 5px 0 rgba(0,0,0,0.2);
+}
+
+.aboutText {
+    margin-top: 100px;
+}
+
+.lineAbout {
+    margin-top: 24%;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 999px) {
+    .about {
+        height: 800px;
+        width: 170%;
+        margin-top: 15%;
+        margin-left: -30%;
+        margin-right: 25%;
+        margin-bottom: 50%;
+    }
+
+    .main-form-at-btn {
+        margin-top: 10px;
+        padding: 17px 82px;
+        border-radius: 82px;
+        font-size: 50px;
+        margin-bottom: 40%;
+    }
+
+    .lineRight {
+        float: right;
+        margin-top: 17%;
+        margin-right: -60%;
+        border-right: 15px solid #4AA002FF;
+        border-radius: 20px;
+        height: 800px;
+    }
+
+    .lineLeft {
+        float: left;
+        margin-top: 17%;
+        margin-left: -50%;
+        border-left: 15px solid #ACFD2FFF;
+        border-radius: 20px;
+        height: 800px;
+    }
+
+    .aboutText {
+        margin-top: 12%;
+        width: 100%;
+        margin-right: 20px;
+        border-radius: 25px;
+        font-size: 50px;
+    }
+
+    .lineAbout {
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px){
+    .about {
+        height: 500px;
+        min-width: 440px;
+        margin-top: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+
+    .main-form-at-btn {
+        margin-top: 10px;
+        padding: 7px 32px;
+        border-radius: 32px;
+        font-size: 20px;
+    }
+
+    .lineRight {
+        float: right;
+        margin-top: 4%;
+        margin-right: 2%;
+        border-right: 15px solid #4AA002FF;
+        border-radius: 20px;
+        height: 500px;
+    }
+
+    .lineLeft {
+        float: left;
+        margin-top: 4%;
+        margin-left: 2%;
+        border-left: 15px solid #ACFD2FFF;
+        border-radius: 20px;
+        height: 500px;
+    }
+
+    .aboutText {
+        margin-top: 15%;
+        border-radius: 25px;
+        font-size: 30px;
+    }
+
+    .lineAbout {
+        margin-top: 18%;
+    }
+}

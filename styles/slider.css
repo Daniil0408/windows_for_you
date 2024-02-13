@@ -1,0 +1,238 @@
+.slider-container {
+    display: flex;
+    height: 100%;
+    margin-left: 29%;
+    margin-right: 28%;
+    margin-bottom: 5%;
+}
+
+.slider {
+    margin-left: 2%;
+    width: 100%;
+    min-width: 500px;
+    max-width: 800px;
+    height: 450px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: -7px 0 5px 0 rgba(253, 253, 254, 0.61);
+}
+.slides {
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+.slide:nth-of-type(even) {
+    background: linear-gradient(90deg, rgba(172, 253, 47), rgb(74, 160, 2));
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    min-width: 500px;
+    max-width: 800px;
+    height: 450px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, rgba(172, 253, 47), rgb(74, 160, 2));
+    transform-origin: center center;
+    transform: scale(1);
+    scroll-snap-align: center;
+}
+
+.slide__text {
+    margin-top: -100%;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.slide a {
+    background: none;
+    border: none;
+}
+
+a.slide__prev,
+.slider::before {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    left: 5%;
+}
+
+a.slide__next,
+.slider::after {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    right: 5%;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+    position: absolute;
+    top: 48%;
+    width: 35px;
+    height: 35px;
+    border: solid #fdfdfe;
+    border-width: 0 4px 4px 0;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.slider::before,
+.slider::after {
+    content: '';
+    z-index: 1;
+    background: none;
+    pointer-events: none;
+}
+
+.slider__nav {
+    box-sizing: border-box;
+    position: absolute;
+    margin-top: 10%;
+    bottom: 87%;
+    left: 50%;
+    width: 200px;
+    color: #0b460d;
+    -webkit-text-stroke: 0.5px black;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.slider__navlink {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fdfdfe;
+    margin: 0 10px 0 10px;
+}
+
+.read-article{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+    color: #000;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: arial;
+    text-decoration: none;
+    box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px, rgb(0 0 0 / 30%) 0 0 60px -15px;
+}
+
+.slider-text {
+    padding-top: 20px;
+    text-align: center;
+    max-width: 900px;
+    color: #fdfdfe;
+    border-radius: 15px;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 1px 1px 2px black;
+}
+
+.read-article:hover{
+    background: #863901;
+    box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px, rgb(0 0 0 / 30%) 0 0 60px 0px;
+}
+iframe[sandbox] .read-article{
+    display: none;
+}
+
+.slide img {
+    width: 52%;
+    height: 52%;
+}
+
+.slider-title {
+    background: linear-gradient(90deg, rgba(172, 253, 47), rgb(74, 160, 2));
+    text-align: center;
+    color: #0b460d;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 999px) {
+
+    .slider-container {
+    margin-right: 0;
+    }
+
+    .slider {
+        margin-top: 10%;
+        margin-right: 0;
+        margin-left: -21%;
+        margin-bottom: 35%;
+        
+        width: 800px;
+        height: 800px;
+    }
+
+    .slide {
+        height: 800px;
+    }
+
+    .slide img {
+        width: 70%;
+        height: 70%;
+    }
+
+    .slider__nav {
+        width: 455px;
+        margin-right: 30%;
+        margin-left: -30%;
+        font-size: 60px;
+        margin-top: 20%;
+        bottom: 78%;
+    }
+
+    .slider-title {
+        margin-top: 15%;
+        margin-left: 13%;
+        margin-right: 4%;
+        font-size: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+
+    .slider-container {
+        margin-left: 28.5%;
+    }
+
+    .slider {
+        margin-right: 10%;
+        margin-left: 0;
+        max-width: 500px;
+        height: 400px;
+    }
+
+    .slide {
+        height: 400px;
+    }
+
+    .slider__nav {
+        margin-top: 10%;
+        bottom: 88.5%;
+    }
+
+    .slider-title {
+        margin-left: 28.5%;
+        margin-right: 30%;
+    }
+
+}
+

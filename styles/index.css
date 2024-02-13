@@ -1,0 +1,89 @@
+body {
+    background-color: #eff4fd;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#left {
+    float: left;
+}
+
+.leftBlok {
+    margin-bottom: 10px;
+    border-radius: 25px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: -7px 0 5px 0 rgba(0,0,0,0.2);
+    background: linear-gradient(90deg, #f83600, #fe8c00);
+}
+
+#right {
+    float: right;
+}
+
+.rightBlok {
+    margin-bottom: 10px;
+    border-radius: 25px;
+    width: 250px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, #fe8c00, #f83600);
+    box-shadow: -7px 0 5px 0 rgba(0,0,0,0.2);
+}
+
+#content {
+    margin-top: 10px;
+    margin-left: 270px;
+    margin-right: 270px;
+    padding: 10px;
+}
+
+#right h3 {
+    margin: 0;
+}
+
+#left h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 7px 40px;
+}
+
+.form-at-btn {
+    margin-top: 10px;
+    padding: 7px 42px;
+    border-radius: 25px;
+    background: #ff6900;
+    color: white;
+
+}
+
+.main-form-at-btn{
+    float: initial;
+    margin-top: 0px;
+    padding: 7px 42px;
+    border-radius: 25px;
+    background: #117713;
+    color: white;
+}
+
+button:hover {
+    background: #863901;/*добавляем эффект при наведении*/
+}

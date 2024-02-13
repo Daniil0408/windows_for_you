@@ -1,0 +1,43 @@
+.logo2 {
+    height: 100px;
+    width: 33.333%; /* Можно задать любую другую ширину блока */
+}
+
+.logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: -37px;
+    padding: 40px 0px;
+}
+
+.logo21 {
+    width: 400px;
+}
+
+.logo22 {
+    width: 600px;
+    margin-top: 5px;
+    margin-left: -20px;
+}
+
+.logo23 {
+    margin-top: 12px;
+    float: right;
+}
+
+.logo2 h3 {
+    margin: 0;
+    text-align: right;
+    color: #0b460d;
+}
+
+.icon {
+    float: left;
+    margin: 0;
+}
+
+
+

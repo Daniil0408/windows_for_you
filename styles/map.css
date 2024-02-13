@@ -1,0 +1,52 @@
+iframe {
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 25px;
+}
+
+.map {
+    margin-top: 2%;
+    margin-left: 33%;
+    margin-right: 32.5%;
+    background: linear-gradient(90deg, rgb(172, 253, 47), rgb(73, 157, 2));
+    border-radius: 25px;
+    box-shadow: -7px 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.map-title {
+    background: linear-gradient(90deg, rgba(172, 253, 47), rgb(74, 160, 2));
+    text-align: center;
+    color: #0b460d;
+    margin-top: 2%;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius: 25px;
+    box-shadow: -7px 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px){
+    iframe {
+        width: 95%;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1px) and  (max-width: 999px){
+    .map-title {
+        margin-top: 15%;
+        margin-left: 13%;
+        margin-right: 4%;
+        font-size: 40px;
+    }
+    .map {
+        margin-top: 2%;
+        margin-left: 13%;
+        margin-right: 4%;
+    }
+
+    iframe {
+        width: 95%;
+        height: 600px;
+    }
+}

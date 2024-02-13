@@ -1,0 +1,180 @@
+.profile {
+    color: #0b460d;
+}
+
+.profile-text {
+    color: #0b460d;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.profileText {
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 25px;
+    color: #0b460d;
+    -webkit-text-stroke: 0.5px black;
+    background: linear-gradient(90deg, rgba(172, 253, 47), rgb(74, 160, 2));
+    box-shadow: -7px 0 5px 0 rgba(0,0,0,0.2);
+}
+
+.specifications {
+    width: 650px;
+    height: 440px;
+    float: right;
+    margin-bottom: 10%;
+    margin-right: 2%;
+    background: linear-gradient(90deg, rgb(182, 253, 67), rgb(79, 157, 13));
+    border-radius: 25px;
+    box-shadow: -7px 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.specifications h1 {
+    text-align: center;
+    color: #0b460d;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.specifications h2 {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #0b460d;
+    -webkit-text-stroke: 0.5px black;
+
+}
+
+.main {
+    width: 250px;
+    height: 440px;
+    float: left;
+    margin-bottom: 10%;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(172, 253, 47), rgb(73, 157, 2));
+    border-radius: 25px;
+    box-shadow: -7px 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main h2 {
+    margin-top: 40px;
+}
+
+.main h3 {
+    margin-top: -10px;
+}
+
+.profile-form-at-btn{
+    margin-top: 10px;
+    padding: 7px 42px;
+    border-radius: 25px;
+    background: #117713;
+    color: white;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 999px){
+
+    .main {
+        width: 600px;
+        height: 1000px;
+        float: left;
+        margin-left: -18%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .profileText {
+        width: 200%;
+        margin-left: -45%;
+        margin-right: 20px;
+        border-radius: 25px;
+        font-size: 50px;
+    }
+
+    .main img {
+        width: 400px;
+        height: 650px;
+    }
+
+    .main h2 {
+        font-size: 50px;
+    }
+
+    .main h3 {
+        font-size: 50px;
+    }
+
+    .profile-form-at-btn{
+        margin-top: 7px;
+        padding: 17px 82px;
+        border-radius: 82px;
+        font-size: 50px;
+    }
+
+    .specifications {
+        width: 800px;
+        height: 800px;
+        float: left;
+        margin-left: -42%;
+        margin-bottom: 55%;
+        margin-right: 2%;
+        font-size: 30px;
+    }
+
+    .specifications h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px){
+
+    .main {
+        width: 400px;
+        height: 570px;
+        float: left;
+        margin-left: 20%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .profileText {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 20px;
+        border-radius: 25px;
+        font-size: 20px;
+    }
+
+    .main img {
+        width: 200px;
+        height: 350px;
+    }
+
+    .main h2 {
+        font-size: 30px;
+    }
+
+    .main h3 {
+        font-size: 30px;
+    }
+
+    .profile-form-at-btn{
+        margin-top: 10px;
+        padding: 7px 32px;
+        border-radius: 32px;
+        font-size: 20px;
+    }
+
+    .specifications {
+        width: 600px;
+        height: 750px;
+        margin-left: 2%;
+        margin-bottom: 20px;
+        margin-right: 7%;
+        font-size: 20px;
+    }
+
+    .specifications h2 {
+        font-size: 30px;
+    }
+}
